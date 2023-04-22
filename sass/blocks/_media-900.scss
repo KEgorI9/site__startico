@@ -1,0 +1,162 @@
+@media (max-width: 900px) {
+
+  .header__body-title {
+    font-size: 42px;
+  }
+
+  .speed__inner {
+    justify-content: center;
+  }
+
+  .speed__img {
+    display: none;
+  }
+
+  .speed__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h2 {
+      font-size: 24px;
+      line-height: 28px;
+    }
+  }
+
+  // ---------------------------------------------------------------------------------------------------
+
+  .startup__inner {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+
+    h2 {
+      font-size: 23px;
+      line-height: 30px;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  }
+
+  .startup__fig {
+    display: none;
+  }
+
+  .startup__text {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .startup__card {
+
+    &:first-child {
+      margin-left: 10px;
+    }
+    
+    &:last-child {
+      margin-right: 10px;
+    }
+
+    .startup__card-title {
+      font-size: 18px;
+      line-height: 20px;
+    }
+  }
+
+  // ----------------------------------------------------------------------------------
+  
+  .customers__title {
+    font-size: 42px;
+  }
+
+  // ----------------------------------------------------------------------------------
+  
+  .pricing__text {
+    margin-bottom: 60px;
+  }
+  
+  .pricing__cards {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // flex-wrap: wrap;
+    // justify-content: center;
+  }
+  
+  .pricing__card {
+    margin: 0;
+    margin-bottom:40px;
+
+    &:hover {
+      transform: translateY(-20px);
+    }
+  }
+
+  .pricing__plan {
+    margin-top: 50px;
+  }
+  
+  .pricing__include {
+  }
+  
+  .pricing__plan-list {
+    display: none;
+    flex-grow: 0;
+  }
+  
+  .pricing__plan-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  .pricing__plan-show {
+    display: block;
+    margin: 15px 0 25px 5px;
+    flex-grow: 1;
+    text-decoration: underline;
+    cursor: pointer;
+    pointer-events: auto;
+  }
+  
+  .pricing__title {
+    font-size: 38px;
+    line-height: 38px;
+    margin-top: 12px;
+    margin-bottom: 18px;
+  }
+  
+  .pricing__mo {
+    p:first-child {
+      font-size: 36px;
+      line-height: 42px;
+    }
+    
+    p:last-child {
+      font-size: 26px;
+      line-height: 30px;
+    }
+  }
+  
+  // ----------------------------------------------------------------------------------
+  
+  .blog__title {
+    font-size: 38px;
+    line-height: 48px;
+  }
+
+  .blog__row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog__item {
+    margin-right: 0;
+    margin-bottom: 30px;
+    flex: none;
+    max-width: 500px;
+  }
+
+}

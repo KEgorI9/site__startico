@@ -1,0 +1,51 @@
+@media (max-width: 450px) {
+
+  .header__body-title {
+    font-size: 26px;
+  }
+
+  .speed__btn-box {
+    flex-direction: column;
+
+    .speed__first-btn {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+
+  // -----------------------------------------------------------------------------------
+
+  .startup__inner {
+
+    h2 {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+
+  .startup__cards {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .startup__btn-box {
+    flex-direction: column;
+  }
+
+  .startup__first-btn {
+    margin-right: 0;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+  }
+
+  .startup__second-btn {
+    padding: 12px 13px;
+  }
+
+  // -----------------------------------------------------------------------------
+
+  .customers__feedback {
+    font-size: inherit;
+    line-height: 20px;
+  }
+}

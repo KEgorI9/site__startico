@@ -1,0 +1,111 @@
+.subscription__wrapper {
+  background: $accent-color2;
+  border-radius: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.subscription__fig {
+  position: absolute;
+  top: -74px;
+  right: 58px;
+}
+
+.subscription__inner {
+  max-width: 720px;
+  text-align: center;
+  padding-top: 81px;
+  padding-bottom: 93px;
+}
+
+.subscription__title {
+  font-family: Fraunces, sans-serif;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.subscription__text {
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 27px;
+  margin-bottom: 30px;
+}
+
+.subscription__form {}
+
+.subscription__form-items {
+  margin-bottom: 19px;
+}
+
+.subscription__form-input {
+  width: 100%;
+  max-width: 368px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12.5px 0;
+  padding-left: 32px;
+  padding-right: 32px;
+  border-radius: 24px;
+  border: 1px solid transparent;
+
+// ----------------------------------------------------
+  /* Современные браузеры----------------------------  */
+  &::placeholder {
+    color: $accent-color1;
+  }
+
+  /* WebKit, Edge----------------------------  */
+  &::-webkit-input-placeholder {
+    color: $accent-color1;
+  }
+
+  /* Edge----------------------------  */
+  &::-ms-input-placeholder {
+    color: $accent-color1;
+  }
+
+  /* Firefox 4-18----------------------------  */
+  &:-moz-placeholder {
+    color: $accent-color1;
+    opacity: 1;
+  }
+
+  /* Firefox 19+----------------------------  */
+  &::-moz-placeholder {
+    color: $accent-color1;
+    opacity: 1;
+  }
+
+  /* IE 10-11----------------------------  */
+  &:-ms-input-placeholder {
+    color: $accent-color1;
+  }
+// ----------------------------------------------------
+
+  &:focus {
+    border: 1px solid $accent-color1;
+  }
+
+  &:focus::placeholder {
+    color: transparent;
+  }
+}
+
+.subscription__form-btn {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 10.5px 20px;
+  margin-left: 16px;
+  background: $accent-color1;
+}
+
+.subscription__form-caption {
+  font-size: 11px;
+  line-height: 18px;
+}

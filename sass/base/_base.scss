@@ -1,0 +1,66 @@
+html, body {
+  // background-color: #cf1414;
+  font-family: SpaceGrotesk, sans-serif;
+  font-weight: 400;
+  color: #162E3C;
+
+}
+
+.wrapper {
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+  
+  // z-index: -10;
+}
+
+.container {
+  max-width: 1310px;
+  margin: 0 auto;
+  padding: 0 15px;
+  height: 100%;
+  // z-index: 1;
+}
+
+.button {
+  border: 2px solid #162E3C;
+  border-radius: 64px;
+  transition: all .3s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.header__body {
+  margin-top: 84px;
+}
+
+.main__speed {
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.main__startup {
+  margin-bottom: 128px;
+
+}
+
+.main__customers {
+  padding-top: 125px;
+  padding-bottom: 165px;
+}
+
+.main__pricing {
+  padding-top: 121px;
+  padding-bottom: 64px;
+}
+
+.main__blog {
+  padding-top: 64px;
+  padding-bottom: 128px;
+}
+
+.main__subscription {
+  margin-bottom: -242px;
+}
